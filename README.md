@@ -19,5 +19,5 @@
 * variable - the ability to store values and change them
 * threads - the ability for our program to do multiple things at once
 * events - the ability to respond to changes in our program or inputs
-# Completed pset0 and subbmitted
+# Completed pset0 and submitted
 * Fairy, Princess and ghost(animation).
