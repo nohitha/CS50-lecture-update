@@ -22,3 +22,15 @@
 # Completed pset0 and submitted
 * Fairy, Princess and ghost(animation) in scratch.
 # Completed watching week 1 lecture
+# C Language
+* hello world program
+* compilers - source code to machine code
+* clang filename.c to compile and ./a.out to execute.
+* 2nd method - clang -o name name.c and ./name for execution.
+* ls, cd, mkdir, pwd, rm filename(to remove), cp sourcename destinationname(to copy), mv sourcename destinationname(to change file name)
+* strings
+* comparing scratch block with c code 
+* variables, conditions - if, if-else,nested if-else, loops - while,do while, for.
+# Types, format specifer and operators
+* int, bool, float, double,long,char,string - types.
+* get_int, get_float,get_double, get_char,get_string
