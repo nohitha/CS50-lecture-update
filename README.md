@@ -45,4 +45,11 @@
 * Computer has memory, in hardware chips called RAM. Programs use that RAM to store data as they run, but that memory is finite. So with a finite number of bits, we can’t represent all possible numbers (of which there are an infinite number of). So our computer has a certain number of bits for each float and int, and has to round to the nearest decimal value at a certain point.
 * float value output after decimal can be any number of digits, but you can specify number of digits to be represented after decimal by %.4f for 4 digits after decimal.
 * EXAMPLES: 
-* 1. X = 1, Y = 10, Then computer output of X/Y = 0.10000000149011611938476562500000000000000000000000
+* X = 1, Y = 10, Then computer output of X/Y = 0.10000000149011611938476562500000000000000000000000
+* It turns out that this is called floating-point imprecision, where we don’t have enough bits to store all possible values, so the computer has to store the closest value it can to 1 divided by 10.
+* i = 1, i is multiplied by 2,infinite number of times. sleep(1) available in unistd.h library.
+* We see the number gets bigger and bigger until 1073741824 and prints an error integer overflow then it turns to 0.
+* As it could not store next value it displayed error. But still doubling it gives a negative number and then continues 0.
+* This problem is called integer overflow, where an integer can only be so big before it runs out of bits and “rolls over”. We can picture adding 1 to 999 in decimal. The last digit becomes 0, we carry the 1 so the next digit becomes 0, and we get 1000. But if we only had three digits, we would end up with 000 since there’s no place to put the final 1!
+* Examples: Y2K calender year representing 99 instead of 1999 later found bug and took more memory to rectify problem.
+* A Boeing 787 has a bug that counter in the generator overflows. so it should be restrated or rebooted and set counter to 1 again.
