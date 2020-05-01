@@ -35,5 +35,8 @@
 * int, bool, float, double,long,char,string - types.
 * get_int, get_float,get_double, get_char,get_string,get_long -> cs50.h library also include bool.
 * %c - char,%s - string,%i - int,%li - long,%f -float,double -> format specifiers.
-
+* +, -,/,%,* ->operators.
+* Few examples - age in number of days, price printed with tax,parity(even or odd),conditions, agree(y or Y, N or n),cough 3 times within a function also prototype or declaration of function after predefined libraries and before main.
+* get_positive_integer only as input -> use do while for input.
+# Screens
 
