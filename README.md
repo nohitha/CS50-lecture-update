@@ -21,3 +21,4 @@
 * events - the ability to respond to changes in our program or inputs
 # Completed pset0 and submitted
 * Fairy, Princess and ghost(animation) in scratch.
+# Completed watching week 1 lecture
