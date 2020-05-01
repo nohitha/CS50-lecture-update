@@ -33,4 +33,7 @@
 * variables, conditions - if, if-else,nested if-else, loops - while,do while, for.
 # Types, format specifer and operators
 * int, bool, float, double,long,char,string - types.
-* get_int, get_float,get_double, get_char,get_string
+* get_int, get_float,get_double, get_char,get_string,get_long -> cs50.h library also include bool.
+* %c - char,%s - string,%i - int,%li - long,%f -float,double -> format specifiers.
+
+
