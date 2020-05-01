@@ -39,4 +39,10 @@
 * Few examples - age in number of days, price printed with tax,parity(even or odd),conditions, agree(y or Y, N or n),cough 3 times within a function also prototype or declaration of function after predefined libraries and before main.
 * get_positive_integer only as input -> use do while for input.
 # Screens
-
+* to print ???? -> which is a part of representation in mario game.
+* to print square wall as in mario game.
+# Memory, imprecision and overflow
+* Computer has memory, in hardware chips called RAM. Programs use that RAM to store data as they run, but that memory is finite. So with a finite number of bits, we can’t represent all possible numbers (of which there are an infinite number of). So our computer has a certain number of bits for each float and int, and has to round to the nearest decimal value at a certain point.
+* float value output after decimal can be any number of digits, but you can specify number of digits to be represented after decimal by %.4f for 4 digits after decimal.
+* EXAMPLES: 
+* 1. X = 1, Y = 10, Then computer output of X/Y = 0.10000000149011611938476562500000000000000000000000
