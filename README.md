@@ -53,4 +53,8 @@
 * This problem is called integer overflow, where an integer can only be so big before it runs out of bits and “rolls over”. We can picture adding 1 to 999 in decimal. The last digit becomes 0, we carry the 1 so the next digit becomes 0, and we get 1000. But if we only had three digits, we would end up with 000 since there’s no place to put the final 1!
 * Examples: Y2K calender year representing 99 instead of 1999 later found bug and took more memory to rectify problem.
 * A Boeing 787 has a bug that counter in the generator overflows. so it should be restrated or rebooted and set counter to 0 again.
+# Completed pset1 and submitted
+* hello world program.
+* mario -> left spaces + right triangle wall.
+* cash -> greedy problem. print least minimum coins to be given to the customer.
 # 
