@@ -49,7 +49,7 @@
 * It turns out that this is called floating-point imprecision, where we don’t have enough bits to store all possible values, so the computer has to store the closest value it can to 1 divided by 10.
 * i = 1, i is multiplied by 2,infinite number of times. sleep(1) available in unistd.h library.
 * We see the number gets bigger and bigger until 1073741824 and prints an error integer overflow then it turns to 0.
-* As it could not store next value it displayed error. But still doubling it gives a negative number and then continues 0.
+* As it could not store next value it displayed error. But still doubling it gives a negative number and then continues printing 0.
 * This problem is called integer overflow, where an integer can only be so big before it runs out of bits and “rolls over”. We can picture adding 1 to 999 in decimal. The last digit becomes 0, we carry the 1 so the next digit becomes 0, and we get 1000. But if we only had three digits, we would end up with 000 since there’s no place to put the final 1!
 * Examples: Y2K calender year representing 99 instead of 1999 later found bug and took more memory to rectify problem.
-* A Boeing 787 has a bug that counter in the generator overflows. so it should be restrated or rebooted and set counter to 1 again.
+* A Boeing 787 has a bug that counter in the generator overflows. so it should be restrated or rebooted and set counter to 0 again.
