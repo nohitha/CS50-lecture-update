@@ -77,3 +77,7 @@
 * where argc -> no. of arguments and argv[] -> is the input.
 * Eg: ./hello has argc 1 and argv[0], ./hello nohitha has argc of 2 and argv[0] is ./hello and argv[1] is nohitha.
 # Readability
+* we can analyze paragraphs of text for their level of readability, based on factors like how long and complicated the words and sentences are.
+# Encryption
+* Encryption is defined as -> plain text(input msg) ->encrypt using key -> cipher text (msg to destination).
+* Eg: plain text (HI! -> 72 73 33) -> encrypt key be 1 -> cipher text (IJ -> 73 74 34).
