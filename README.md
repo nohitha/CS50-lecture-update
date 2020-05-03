@@ -73,3 +73,7 @@
 * string.h library has strlen().
 * ctype.h has toupper()
 # Command line arguments
+* int argc and string argv[] are arguments passed to take an input while execution.
+* where argc -> no. of arguments and argv[] -> is the input.
+* Eg: ./hello has argc 1 and argv[0], ./hello nohitha has argc of 2 and argv[0] is ./hello and argv[1] is nohitha.
+# Readability
