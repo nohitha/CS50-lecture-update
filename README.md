@@ -58,4 +58,6 @@
 * mario -> left spaces + right triangle wall.
 * cash -> greedy problem. print least minimum coins to be given to the customer.
 # Completed watching week 2 lecture
-#
+# Compiling
+* It includes -> preprocessing(loading pre defined library into code), compiling(source to assembly), assembling(instructions to binary), linking.
+
