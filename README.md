@@ -80,4 +80,5 @@
 * we can analyze paragraphs of text for their level of readability, based on factors like how long and complicated the words and sentences are.
 # Encryption
 * Encryption is defined as -> plain text(input msg) ->encrypt using key -> cipher text (msg to destination).
-* Eg: plain text (HI! -> 72 73 33) -> encrypt key be 1 -> cipher text (IJ -> 73 74 34).
+* Eg: plain text (HI! -> 72 73 33) -> encrypt key be 1 -> cipher text (IJ" -> 73 74 34).
+#
