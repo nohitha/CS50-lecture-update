@@ -65,4 +65,11 @@
 * we can use help50 make name.c, debug50 ./name (add breakpoint or indicator and then debugg), check50, style50.
 * Datatypes, Memory
 # Arrays
-
+* array stores similar data in continious memory.
+* casting -> eg: float a = 1.2 can be casted to integer by -> (int) a
+* array example programs: average of 3 scores.
+# Strings
+* string is an array of characters which ends with '\0'.
+* string.h library has strlen().
+* ctype.h has toupper()
+# Command line arguments
