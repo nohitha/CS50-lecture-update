@@ -98,3 +98,10 @@
   } person;
 * declaration in main: type name -> eg: person people[4];
 * to access elements of struct in main() person.name[index] or person.number[index].
+# Sortings
+* Bubble sort -> O(n^2)
+* Selection sort ->
+* Insertion sort  ->
+* Merge sort ->
+# Recursion
+
