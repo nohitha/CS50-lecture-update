@@ -81,4 +81,5 @@
 # Encryption
 * Encryption is defined as -> plain text(input msg) ->encrypt using key -> cipher text (msg to destination).
 * Eg: plain text (HI! -> 72 73 33) -> encrypt key be 1 -> cipher text (IJ" -> 73 74 34).
-#
+# Completed week 3 lecture
+
