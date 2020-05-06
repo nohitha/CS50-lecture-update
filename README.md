@@ -89,4 +89,12 @@
 * BigO means "on the order of". The number of steps taken to solve or runtime. (worst case)
 * omega -> the least no of steps taken to solve or run algorithm (best case).
 # Structs
-* 
+* user can define this datatype which contain different datatypes which are of linked information.
+* syntax is similar to this example below: 
+  typedef struct 
+  { 
+  string name;
+  string number;
+  } person;
+* declaration in main: type name -> eg: person people[4];
+* to access elements of struct in main() person.name[index] or person.number[index].
