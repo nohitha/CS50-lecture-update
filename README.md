@@ -82,4 +82,11 @@
 * Encryption is defined as -> plain text(input msg) ->encrypt using key -> cipher text (msg to destination).
 * Eg: plain text (HI! -> 72 73 33) -> encrypt key be 1 -> cipher text (IJ" -> 73 74 34).
 # Completed week 3 lecture (Algorithms)
-
+# Searchings
+* Linear search -> O(n), omega(1)
+* Binary search -> O(log n), omega(1)
+# BigO
+* BigO means "on the order of". The number of steps taken to solve or runtime. (worst case)
+* omega -> the least no of steps taken to solve or run algorithm (best case).
+# Structs
+* 
