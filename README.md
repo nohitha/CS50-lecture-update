@@ -99,9 +99,12 @@
 * declaration in main: type name -> eg: person people[4];
 * to access elements of struct in main() person.name[index] or person.number[index].
 # Sortings
-* Bubble sort -> O(n^2)
-* Selection sort ->
-* Insertion sort  ->
-* Merge sort ->
+* Bubble sort -> O(n^2), omega(n)
+* Selection sort -> O(n^2), omega(n^2)
+* Insertion sort  -> O(n^2), omega(n)
+* Merge sort -> O(nlogn), omega(nlogn)
+* Finally, there is another notation, Θ, Theta, which we use to describe running times of algorithms if the upper bound and lower bound is the same. For example, merge sort has Θ(n log n) since the best and worst case both require the same number of steps. And selection sort has Θ(n2).
 # Recursion
-
+* When a function or algorithm refers to itself.
+* In the lecture, took an example of marion pyramid.
+* eg:factorial
