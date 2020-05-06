@@ -21,7 +21,7 @@
 * events - the ability to respond to changes in our program or inputs
 # Completed pset0 and submitted
 * Fairy, Princess and ghost(animation) in scratch.
-# Completed watching week 1 lecture
+# Completed watching week 1 lecture (C lang)
 # C Language
 * hello world program
 * compilers - source code to machine code
@@ -57,7 +57,7 @@
 * hello world program.
 * mario -> left spaces + right triangle wall.
 * cash -> greedy problem. print least minimum coins to be given to the customer.
-# Completed watching week 2 lecture
+# Completed watching week 2 lecture (Arrays)
 # Compiling
 * It includes -> preprocessing(loading pre defined library into code), compiling(source to assembly), assembling(instructions to binary), linking(links all binary code).
 # debugging
@@ -81,5 +81,5 @@
 # Encryption
 * Encryption is defined as -> plain text(input msg) ->encrypt using key -> cipher text (msg to destination).
 * Eg: plain text (HI! -> 72 73 33) -> encrypt key be 1 -> cipher text (IJ" -> 73 74 34).
-# Completed week 3 lecture
+# Completed week 3 lecture (Algorithms)
 
