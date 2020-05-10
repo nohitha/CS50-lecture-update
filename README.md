@@ -114,3 +114,7 @@
 * RGB color system also conventionally uses hexadecimal to describe the amount of each color. 
 * we prefix hexadecimal with 0x as to differentiate 0010 in hexadecimal and 10 in decimal system.
 # Pointers
+* In C -> & operators means get the address of this variable.
+* %p where p is pointer. pointer -> is the address of a variable,points to a location in a memory.
+* Pointer is represented as *. The * operator mean go to the location that a pointer is pointing to.
+* Eg: printing *&n,
