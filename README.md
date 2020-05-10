@@ -109,4 +109,8 @@
 * In the lecture, took an example of marion pyramid.
 * eg:factorial
 # Completed week 4 lecture (Memory)
-
+# Hexadecimal
+* The address of memory use representation of 16 digits with 0-9 then A-F in hexadecimal.
+* RGB color system also conventionally uses hexadecimal to describe the amount of each color. 
+* we prefix hexadecimal with 0x as to differentiate 0010 in hexadecimal and 10 in decimal system.
+# Pointers
