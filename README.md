@@ -108,3 +108,5 @@
 * When a function or algorithm refers to itself.
 * In the lecture, took an example of marion pyramid.
 * eg:factorial
+# Completed week 4 lecture (Memory)
+
