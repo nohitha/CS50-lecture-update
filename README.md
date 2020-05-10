@@ -122,4 +122,7 @@
 * the CS50 Library defines a string with typedef char *string. we can take string type as char * or a pointer to a character.
 * We can also try printf("%p\n", &s[0]).Can also replace s[0], s[1], and s[2] actually which map directly to *s, *(s+1), and *(s+2).
 # Compare and copy
-* 
+* eg: compare values print same or different, make first letter of string to uppercase.
+* string.h -> strlen(), strcmp, strcpy and more.
+# valgrind
+
