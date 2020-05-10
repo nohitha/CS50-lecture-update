@@ -125,4 +125,28 @@
 * eg: compare values print same or different, make first letter of string to uppercase.
 * string.h -> strlen(), strcmp, strcpy and more.
 # valgrind
-
+* when we allocate memory using "malloc" then "free" the memory when remained  unused.So that freed memory can be used again.
+* If we keep on allocating memory using malloc but didn't freed after using it leads to memory leak -> It slows down the computer and use more and more memory until the computer runs out of memory.
+* valgrind is a command line tool to check memory leaks. -> help50 valgrind ./filename
+* // http://valgrind.org/docs/manual/quick-start.html#quick-start.prepare 
+* sizeof gives no. of bytes
+* bufferoverflow -> where we go above the buffer size, array size and unknown memory. eg: a[3] -> using a[3] or a[4] causes overflow.
+# Swap
+* to swap two variables we need 3rd variable.
+* when swap function is called with 2 paramaters passed, the copy of those variables are passed and then swappedin that function, but not the original values in main.
+* to change original values use call by reference that means passing an address and using pointer.
+# Memory layout
+* there are different sections in memory.
+* first one is machine code which is compiled binary code, located at top in the memory.
+* next, global variables
+* then heap area -> whenever we call malloc the heap area grows towards bottom.
+* last stack area -> whenever we call main or any other function in main then sack area grows upward.
+* when we call many times malloc -> heapoverflow. when we call main many times -> stackoverflow. these 2 types of overflow are bufferoverflow which may cause program to crash.
+# scanf
+* to take input from the keyboard.
+* eg: scanf("%i", &x);
+# files
+* eg: phonebook to append name and mobile number which produce csv file, to read name and mobile number from phone book.
+* fopen, fclose, fprintf to print the file. fread to read the file.
+# jpeg
+* eg: to check that input is jpeg or not. clue: always first 3 bytes in jpeg are 0xff 0xd8 0xff.
