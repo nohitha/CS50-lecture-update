@@ -117,4 +117,9 @@
 * In C -> & operators means get the address of this variable.
 * %p where p is pointer. pointer -> is the address of a variable,points to a location in a memory.
 * Pointer is represented as *. The * operator mean go to the location that a pointer is pointing to.
-* Eg: printing *&n,
+* Eg: printing *&n, to declare and use pointer *t = &a.
+# strings
+* the CS50 Library defines a string with typedef char *string. we can take string type as char * or a pointer to a character.
+* We can also try printf("%p\n", &s[0]).Can also replace s[0], s[1], and s[2] actually which map directly to *s, *(s+1), and *(s+2).
+# Compare and copy
+* 
