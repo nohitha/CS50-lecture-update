@@ -150,3 +150,6 @@
 * fopen, fclose, fprintf to print the file. fread to read the file.
 # jpeg
 * eg: to check that input is jpeg or not. clue: always first 3 bytes in jpeg are 0xff 0xd8 0xff.
+# Problem pset 2
+* one problem completed and submitted. readability to check the grade -> finding words, letters, sentences applying on  formula.
+
