@@ -128,7 +128,7 @@
 * when we allocate memory using "malloc" then "free" the memory when remained  unused.So that freed memory can be used again.
 * If we keep on allocating memory using malloc but didn't freed after using it leads to memory leak -> It slows down the computer and use more and more memory until the computer runs out of memory.
 * valgrind is a command line tool to check memory leaks. -> help50 valgrind ./filename
-* // http://valgrind.org/docs/manual/quick-start.html#quick-start.prepare 
+* http://valgrind.org/docs/manual/quick-start.html#quick-start.prepare 
 * sizeof gives no. of bytes
 * bufferoverflow -> where we go above the buffer size, array size and unknown memory. eg: a[3] -> using a[3] or a[4] causes overflow.
 # Swap
