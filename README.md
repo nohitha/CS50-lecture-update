@@ -153,4 +153,7 @@
 # Problem pset 2
 * one problem completed and submitted. readability to check the grade -> finding words, letters, sentences applying on  formula.
 * caesar problem -> to encrypt the text using valid key.
+# problem pset3
+* plurality -> more no. of votes to a candidate, then rint the candidates name.
+* 
 
