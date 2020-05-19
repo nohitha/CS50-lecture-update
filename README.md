@@ -155,5 +155,6 @@
 * caesar problem -> to encrypt the text using valid key.
 # problem pset3
 * plurality -> more no. of votes to a candidate, then print the candidates name.
-* 
+* runoff -> to find who win in election by runoff method.
+
 
