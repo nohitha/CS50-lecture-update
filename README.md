@@ -168,6 +168,21 @@
 * to build data structure we need the below
 * struct - to create custom data, . to access properties in structure, * used for pointing to address location.
 # Linked Lists
-*
+* List can be grown or shrinked.
+* values are not stored next to each other in linked list like an array.
+* linked list contain nodes, where eac node contain a value and pointer.
+* NUL refers to '\0' that means end of string. NULL refers to address of all zeros or null pointing pointing nothing.
+* There is no random access unlike an array.
+* inserting a node by dynamically allocating more memory. eg: showed an example with students.
 # More data structures
-*
+* TREE is a data structure where each node points to two other nodes, left (value less than root node)and right (value more than root node)nodes.
+* Every node has atmost two nodes. It is called binary search tree. It is a search tree because it’s sorted in a way that allows us to search correctly.
+* Run time o search tree is O(logn) and inserting nodes while keeping the tree balanced is also O(logn).
+* HASH TABLE: A data structure with constant time search, which is a combination of array and linked list. eg: list of names placed in alpabetic manner by hash code.
+* TRIE: It is another data structure.
+* Imagine we want to store a dictionary of words efficiently, and be able to access each one in constant time. A trie is like a tree, but each node is an array. Each array will have each letter, A-Z, stored. For each word, the first letter will point to an array, where the next valid letter will point to another array, and so on, until we reach something indicating the end of a valid word. If our word isn’t in the trie, then one of the arrays won’t have a pointer or terminating character for our word. Now, even if our data structure has lots of words, the lookup time will be just the length of the word we’re looking for, and this might be a fixed maximum so we have O(1) for searching and insertion. The cost for this, though, is 26 times as much memory as we need for each character.
+* Abstract data structure: they are higher level constructs where we use arrays, linked list, hash table, tries to implement a solution to some problem.
+* eg of one abstract data structure is queue (FIFO). insert element -> enqueue, delete element -> dequeue.
+* opposite data structure is stack (LIFO). insert an element -> push, delete an element -> pop.
+* another eg is dictionary,where we can map keys to values, or strings to values and we can implement with one hash table.
+
