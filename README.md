@@ -157,5 +157,8 @@
 * plurality -> more no. of votes to a candidate, then print the candidates name.
 * runoff -> to find who wins in election by runoff method.
 # Completed week 5 lecture (Data Structures)
-
-
+# Pointers
+# Resizing arrays
+# Data Structures
+# Linked Lists
+# More data structures
