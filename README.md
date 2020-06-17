@@ -162,6 +162,12 @@
 * small video of pointer fun with binky. Initially pointers does not point anything. Pointer pointing to a location is called pointee.
 # Resizing arrays
 * One solution is to allocate more memory in a larger area that’s free, and move our array there, where it has more space. But we’ll need to copy our array, which becomes an operation with running time of O(n), since we need to copy each of n elements in an array.
+* We can use realloc to allocate some more memory for arry extension. realloc copies old array into new one.
 # Data Structures
+* Data stuctures are programming constructs that allow us to store information in different layouts in our computer’s memory.
+* to build data structure we need the below
+* struct - to create custom data, . to access properties in structure, * used for pointing to address location.
 # Linked Lists
+*
 # More data structures
+*
