@@ -158,7 +158,10 @@
 * runoff -> to find who wins in election by runoff method.
 # Completed week 5 lecture (Data Structures)
 # Pointers
+* recap of malloc.
+* small video of pointer fun with binky. Initially pointers does not point anything. Pointer pointing to a location is called pointee.
 # Resizing arrays
+* One solution is to allocate more memory in a larger area that’s free, and move our array there, where it has more space. But we’ll need to copy our array, which becomes an operation with running time of O(n), since we need to copy each of n elements in an array.
 # Data Structures
 # Linked Lists
 # More data structures
