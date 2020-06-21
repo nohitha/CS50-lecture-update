@@ -185,4 +185,52 @@
 * eg of one abstract data structure is queue (FIFO). insert element -> enqueue, delete element -> dequeue.
 * opposite data structure is stack (LIFO). insert an element -> push, delete an element -> pop.
 * another eg is dictionary,where we can map keys to values, or strings to values and we can implement with one hash table.
+# Completed week 6 (Python)
+# Python basics
+* Code in python looks simpler than C and also capable of solving data science problems.
+* hello world program in python -> print("hello, world")
+* No need of standard library, declare a main function, specify a new line in print, use of semicolons like C.
+* Python is an interpreted language, which means that we actually run another program (an interpreter) that reads our source code and runs it top to bottom. For example, we can save the above as hello.py, and run the command python hello.py to run our code, without having to compile it.
+* Eg: answer = get_string("What's your name?\n")
+print("hello, " + answer)
+* We create a variable called answer, without specifying the type (the interpreter determins that from context for us), and we can easily combine two strings with the + operator before we pass it into print.
+* We can also pass in multiple arguments to print, with print("hello,", answer), and it will automatically join them with spaces for us too.
+* print also accepts format strings like f"hello, {answer}", which substitutes variables inside curly braces into a string.
+* We can create variables with just counter = 0. To increment a variable, we can use counter = counter + 1 or counter += 1.(no ++)
+* if x < y:
+    print("x is less than y")
+elif x > y:
+    print("x is greater than y")
+else:
+    print("x is equal to y")
+* Boolean expression:
+while True:
+    print("hello, world")
+* We can write a loop with a variable:
+i = 3
+while i > 0:
+    print("cough")
+    i -= 1
+* We can also use a for loop, where we can do something for each element in a list:
+for i in [0, 1, 2]:
+    print("cough")
+* Lists in Python are like arrays in C, but they can grow and shrink easily with the interpreter managing the implementation and memory for us.
+* This for loop will set the variable i to the first element, 0, run, then to the second element, 1, run, and so on.
+And we can use a special function, range, to get some number of values, as in for i in range(3). This will give us 0, 1, and 2, for a total of thee values.
+* In Python, there are many data types:
+bool, True or False
+float, real numbers
+int, integers
+str, strings
+range, sequence of numbers
+list, sequence of mutable values, that we can change or add or remove
+tuple, sequence of immutable values, that we can’t change
+dict, collection of key/value pairs, like a hash table
+set, collection of unique values
+* docspython.org official source documentation.
+# Examples
+* 
+# More features
+# Files
+# New features
 
