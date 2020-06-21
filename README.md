@@ -466,3 +466,7 @@ if re.search("^y(es)?$", s, re.IGNORECASE):
     print("Agreed.")
 elif re.search("^no?$", s, re.IGNORECASE):
     print("Not agreed.")
+# eg shown
+* eg: speech recognition
+* eg:run detect.py and faces.py, which finds each face (or even a specific face) in a photo.
+* eg: qr.py will also generate a QR code to a particular URL.
