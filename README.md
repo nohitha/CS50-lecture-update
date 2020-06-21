@@ -287,7 +287,7 @@ elif s == "N" or s == "n":
 
 def cough():
     print("cough")
-* eg: with main
+* eg: with main -> shows NameError: name cough is not defined.
 def main():
     for i in range(3):
         cough()
@@ -296,7 +296,8 @@ def cough():
     print("cough")
 
 main()
-* def main():
+* Fixes th above error:
+def main():
     cough(3)
 
 def cough(n):
@@ -304,7 +305,8 @@ def cough(n):
         print("cough")
 
 main()
-* from cs50 import get_int
+* positive integer funcion:
+from cs50 import get_int
 
 def main():
     i = get_positive_int()
@@ -318,16 +320,21 @@ def get_positive_int():
     return n
 
 main()
-* for i in range(4):
+* print ? in row:
+for i in range(4):
     print("?", end="")
 print()
-* for i in range(3):
+* print # in column:
+for i in range(3):
     print("#")
-* for i in range(3):
+ => And without a loop: print("#\n" * 3, end="").
+* nested loops:
+for i in range(3):
     for j in range(3):
         print("#", end="")
     print()
- * from time import sleep
+ * In python integer overflow does not happen:
+ from time import sleep
 
 i = 1
 while True:
