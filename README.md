@@ -229,7 +229,125 @@ dict, collection of key/value pairs, like a hash table
 set, collection of unique values
 * docspython.org official source documentation.
 # Examples
-* 
+* We can blur an image with:
+from PIL import Image, ImageFilter
+
+before = Image.open("bridge.bmp")
+after = before.filter(ImageFilter.BLUR)
+after.save("out.bmp")
+* implement dictionary
+words = set()
+
+def check(word):
+    if word.lower() in words:
+        return True
+    else:
+        return False
+
+def load(dictionary):
+    file = open(dictionary, "r")
+    for line in file:
+        words.add(line.rstrip("\n"))
+    file.close()
+    return True
+
+def size():
+    return len(words)
+
+def unload():
+    return True
+* eg: from cs50 import get_string
+
+s = get_string("What's your name?:\n")
+print("hello, " + s)
+* eg: from cs50 import get_int
+
+age = get_int("What's your age?\n")
+print(f"You are at least {age * 365} days old.")
+* eg: from cs50 import get_int
+
+x = get_int("x: ")
+y = get_int("y: ")
+
+if x < y:
+    print("x is less than y")
+elif x > y:
+    print("x is greater than y")
+else:
+    print("x is equal to y")
+* eg: from cs50 import get_string
+
+s = get_string("Do you agree?\n")
+
+if s == "Y" or s == "y":
+    print("Agreed.")
+elif s == "N" or s == "n":
+    print("Not agreed.")
+* eg: for i in range(3):
+    cough()
+
+def cough():
+    print("cough")
+* eg: with main
+def main():
+    for i in range(3):
+        cough()
+
+def cough():
+    print("cough")
+
+main()
+* def main():
+    cough(3)
+
+def cough(n):
+    for i in range(n):
+        print("cough")
+
+main()
+* from cs50 import get_int
+
+def main():
+    i = get_positive_int()
+    print(i)
+
+def get_positive_int():
+    while True:
+        n = get_int("Positive Integer: ")
+        if n > 0:
+            break
+    return n
+
+main()
+* for i in range(4):
+    print("?", end="")
+print()
+* for i in range(3):
+    print("#")
+* for i in range(3):
+    for j in range(3):
+        print("#", end="")
+    print()
+ * from time import sleep
+
+i = 1
+while True:
+    print(i)
+    sleep(1)
+    i *= 2
+* scores = []
+scores.append(72)
+scores.append(73)
+scores.append(33)
+
+print(f"Average: {sum(scores) / len(scores)}")
+* from cs50 import get_string
+
+s = get_string("Input:  ")
+print("Output: ", end="")
+for c in s:
+    print(c, end="")
+print()
 # More features
 # Files
 # New features
