@@ -341,13 +341,17 @@ while True:
     print(i)
     sleep(1)
     i *= 2
-* scores = []
+* This will continue until the integer can no longer fit in your computer’s memory.
+* Floating-point imprecision, too, can be prevented by libraries that can represent decimal numbers with as many bits as are needed.
+* list eg:
+scores = []
 scores.append(72)
 scores.append(73)
 scores.append(33)
 
 print(f"Average: {sum(scores) / len(scores)}")
-* from cs50 import get_string
+* Iterate over each char in string:
+from cs50 import get_string
 
 s = get_string("Input:  ")
 print("Output: ", end="")
