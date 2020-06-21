@@ -431,7 +431,8 @@ print(f"x is {x}, y is {y}")
 x, y = y, x
 print(f"x is {x}, y is {y}")
 # Files
-* import csv
+* to open csv file and append to it
+import csv
 from cs50 import get_string
 
 file = open("phonebook.csv", "a")
@@ -443,18 +444,19 @@ writer = csv.writer(file)
 writer.writerow((name, number))
 
 file.close()
-* with open("phonebook.csv", "a") as file:
+* the below code closes file automatically:
+with open("phonebook.csv", "a") as file:
     writer = csv.writer(file)
     writer.writerow((name, number)) 
 # New features
 * A feature of Python that C does not have is regular expressions, or patterns against which we can match strings. For example, its syntax includes:
-., for any character
-.*, for 0 or more characters
-.+, for 1 or more characters
-?, for something optional
-^, for start of input
-$, for end of input
-For example, we can match strings with:
+* ., for any character
+* .*, for 0 or more characters
+* .+, for 1 or more characters
+* ?, for something optional
+* ^, for start of input
+* $, for end of input
+* match strings eg:
 import re
 from cs50 import get_string
 
