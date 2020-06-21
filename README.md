@@ -359,23 +359,26 @@ for c in s:
     print(c, end="")
 print()
 # More features
-* We can take command-line arguments with:
+* command-line arguments eg:
 from sys import argv
 
 for i in range(len(argv)):
     print(argv[i])
- * from sys import argv
+ * command line arguments other way:
+ from sys import argv
 
 for arg in argv:
     print(arg)
- * from sys import argv, exit
+ * exit code when program exit eg:
+ from sys import argv, exit
 
 if len(argv) != 2:
     print("missing command-line argument")
     exit(1)
 print(f"hello, {argv[1]}")
 exit(0)
-* import sys
+* linear search eg: 
+import sys
 
 names = ["EMMA", "RODRIGO", "BRIAN", "DAVID"]
 
@@ -384,7 +387,8 @@ if "EMMA" in names:
     sys.exit(0)
 print("Not found")
 sys.exit(1)
-* import sys
+* dictionary key value pairs:
+import sys
 
 people = {
     "EMMA": "617-555-0100",
@@ -398,7 +402,8 @@ if "EMMA" in people:
     sys.exit(0)
 print("Not found")
 sys.exit(1)
-* from cs50 import get_string
+* strings can be directly compared:
+from cs50 import get_string
 
 s = get_string("s: ")
 t = get_string("t: ")
@@ -407,7 +412,8 @@ if s == t:
     print("Same")
 else:
     print("Different")
-* from cs50 import get_string
+* copying strings :
+from cs50 import get_string
 
 s = get_string("s: ")
 
@@ -417,7 +423,8 @@ t = t.capitalize()
 
 print(f"s: {s}")
 print(f"t: {t}")
-* x = 1
+* swap numbers:
+x = 1
 y = 2
 
 print(f"x is {x}, y is {y}")
