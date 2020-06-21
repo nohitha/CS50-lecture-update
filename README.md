@@ -358,7 +358,92 @@ for i in range(len(argv)):
 
 for arg in argv:
     print(arg)
- * 
-# Files
-# New features
+ * from sys import argv, exit
 
+if len(argv) != 2:
+    print("missing command-line argument")
+    exit(1)
+print(f"hello, {argv[1]}")
+exit(0)
+* import sys
+
+names = ["EMMA", "RODRIGO", "BRIAN", "DAVID"]
+
+if "EMMA" in names:
+    print("Found")
+    sys.exit(0)
+print("Not found")
+sys.exit(1)
+* import sys
+
+people = {
+    "EMMA": "617-555-0100",
+    "RODRIGO": "617-555-0101",
+    "BRIAN": "617-555-0102",
+    "DAVID": "617-555-0103"
+}
+
+if "EMMA" in people:
+    print(f"Found {people['EMMA']}")
+    sys.exit(0)
+print("Not found")
+sys.exit(1)
+* from cs50 import get_string
+
+s = get_string("s: ")
+t = get_string("t: ")
+
+if s == t:
+    print("Same")
+else:
+    print("Different")
+* from cs50 import get_string
+
+s = get_string("s: ")
+
+t = s
+
+t = t.capitalize()
+
+print(f"s: {s}")
+print(f"t: {t}")
+* x = 1
+y = 2
+
+print(f"x is {x}, y is {y}")
+x, y = y, x
+print(f"x is {x}, y is {y}")
+# Files
+* import csv
+from cs50 import get_string
+
+file = open("phonebook.csv", "a")
+
+name = get_string("Name: ")
+number = get_string("Number: ")
+
+writer = csv.writer(file)
+writer.writerow((name, number))
+
+file.close()
+* with open("phonebook.csv", "a") as file:
+    writer = csv.writer(file)
+    writer.writerow((name, number)) 
+# New features
+* A feature of Python that C does not have is regular expressions, or patterns against which we can match strings. For example, its syntax includes:
+., for any character
+.*, for 0 or more characters
+.+, for 1 or more characters
+?, for something optional
+^, for start of input
+$, for end of input
+For example, we can match strings with:
+import re
+from cs50 import get_string
+
+s = get_string("Do you agree?\n")
+
+if re.search("^y(es)?$", s, re.IGNORECASE):
+    print("Agreed.")
+elif re.search("^no?$", s, re.IGNORECASE):
+    print("Not agreed.")
