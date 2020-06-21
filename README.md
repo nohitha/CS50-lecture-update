@@ -349,6 +349,16 @@ for c in s:
     print(c, end="")
 print()
 # More features
+* We can take command-line arguments with:
+from sys import argv
+
+for i in range(len(argv)):
+    print(argv[i])
+ * from sys import argv
+
+for arg in argv:
+    print(arg)
+ * 
 # Files
 # New features
 
