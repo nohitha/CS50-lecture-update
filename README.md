@@ -470,3 +470,9 @@ elif re.search("^no?$", s, re.IGNORECASE):
 * eg: speech recognition
 * eg:run detect.py and faces.py, which finds each face (or even a specific face) in a photo.
 * eg: qr.py will also generate a QR code to a particular URL.
+# Completed pset6 
+* hello world program in python
+* mario right triangle pyramid in python
+* cash program to know minimum no. of coins to be owed in python
+* readability program to check the grade of text in python
+* 
